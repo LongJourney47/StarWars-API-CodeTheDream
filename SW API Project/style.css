@@ -1,0 +1,111 @@
+body {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 2em;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.2em;
+  border: 2px solid #ffff3f;
+  box-shadow: 0.2em 0.5em 0.7em -0.3em #ffff3f;
+}
+
+.h {
+  color: #ffff3f;
+}
+
+a {
+  color: #ffff3f;
+  text-decoration: none;
+}
+
+.lucover img {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.lunotes,
+.appearances,
+.ownotes {
+  display: inline-block;
+  margin: 5.5em 4em 0em;
+}
+
+.nhnotes {
+  display: inline-block;
+  margin: 4em 7em 0em;
+}
+
+.infolist-lu li,
+.appearances li,
+.infolist-anh li,
+.infolist-ow li {
+  font-size: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.lubio,
+.owbio,
+.nhbio {
+  margin: 2em 0;
+  border-top: 2px solid #ffff3f;
+  border-bottom: 2px solid #ffff3f;
+  padding: 1em 0 1em 0;
+}
+
+.ancover img {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #ffffff;
+
+  display: inline-block;
+}
+
+.owcover img {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #ffffff;
+
+  display: inline-block;
+}
+
+.nhcover img {
+  height: 600px;
+  width: 120%;
+  border: 1px solid #ffffff;
+
+  display: inline-block;
+}
+
+p a:link {
+  color: white;
+}
+
+p a:visited {
+  color: white;
+}
+
+p a:hover {
+  font-weight: 700;
+  background-color: #ffff3f;
+  color: #000000;
+  font-size: 18px;
+}
+
+p a:active {
+  color: #ffffff;
+  background: none;
+  border: 1px solid #ffff3f;
+}
